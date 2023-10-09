@@ -1,0 +1,208 @@
+.page {
+  max-width: 1280px;
+  font-family: 'Inter', sans-serif;
+  align-self: center;
+  background-color: #2A2C2F;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1184px;
+  min-height: 52px;
+  padding-top: 28px;
+  padding-left: 48px;
+  margin: 0;
+  background-color: #2A2C2F;
+}
+
+.header__logo {
+max-width: 176px;
+min-height: 52px;
+}
+
+.header__lang-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+.header__lang-item {
+  margin-right: 18px;
+}
+
+.header__lang-link {
+  width: 30px;
+  height: 28px;
+  top: 46px;
+  left: 1155px;
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: rgba(255, 255, 255, 1);
+}
+
+.lead {
+  max-width: 984px;
+  margin: 0 auto;
+  padding-bottom: 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.lead__title {
+  font-family: 'Inter', Arial, sans-serif;
+  max-width: 720px;
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 100px;
+  letter-spacing: 0em;
+  text-align: center;
+  align-self: center;
+  color: #FFFFFF;
+}
+
+.lead__subtitle {
+font-family: 'Inter', Arial, sans-serif;
+max-width: 640px;
+min-height: 72px;
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+}
+
+.lead__image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.lead__caption {
+  font-family: 'Inter', Arial, sans-serif;
+  max-width: 158px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 1.5px;
+
+  color: #FFFFFF;
+}
+
+.intro {
+max-width: 690px;
+min-height: 429px;
+display: flex;
+flex-direction: column;
+align-items: center;
+box-sizing: border-box;
+}
+
+.intro__title {
+font-family: 'Inter', Arial, sans-serif;
+color: #FFFFFF;
+font-size: 54px;
+font-weight: 900;
+line-height: 58px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.intro__text {
+font-family: 'Inter', Arial, sans-serif;
+color: #FFFFFF;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.intro__list {
+max-width: 690px;
+min-height: 90px;
+list-style: none;
+}
+
+.intro__list-item {
+  font-family: 'Inter', Arial, sans-serif;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+
+
+
+.cover {
+  display: flex;
+  position: relative;
+  max-width: 1184px;
+  min-height: 740px;
+  flex-direction: column;
+  background-image: url(../sprint-3-images/sprint-3-images/cover-trains.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 20px auto 0;
+}
+
+.cover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(42, 44, 47, 0.3);
+}
+
+.cover:hover:before {
+  background-color: rgba(42, 44, 47, 0.8);
+}
+
+.title {
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 76px;
+  /* 105.556% */
+  margin: 0;
+  max-width: 560px;
+  z-index: 2;
+}
+
+.subtitle {
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  /* 122.222% */
+  margin: 0;
+  max-width: 360px;
+  z-index: 2;
+}
